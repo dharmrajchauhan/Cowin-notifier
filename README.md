@@ -31,35 +31,37 @@ So it's quite impossible for the government to make the vaccine available to all
 - [PyQt5](https://www.qt.io)
 - [pyinstaller]()
 
+## :sweat: Problems
+I know so many questions come to your mind. okkk, so first start with the problems. 
+
+When the first time government was release www.cowin.gov their API which works completely fine but after some time due to improper and heavy use, the Indian gov make some rules and regulations for API use. its also not a big problem for devs, but then after, they strictly put a limit of fetching data and now it creates a problem for small devs. 
+
+## :wink: Solustion
+So as an alternative solution we decide to use a selenium web-browser also selenium has its own 2 benefits.
+1.  Selenium can create fake_user_agent.
+2.  Selenium is much faster for grabbing data and connect with the (Qt5)Software development and (Kavy)app development.
+
+I am a little worried about the timing of the data fetch and page refreshing time. But don't worry we would handle this thing very carefully.
+we try to reduce the complexity by not adding Exception conditions. so you can find some bugs somewhere, but don't worry it will not affect you more.
+
+The first time it takes 0.0.9 seconds to grab the result from the web. but then after it takes only 0.0.2 secs. And it's quite a decent result but it's good to go with it.
+
 ## :sleeping: Working
 <h4> How To use </h4>
 <br><h4>1.  Provide a Pin of your area and choose your eligibility criteria</h4>
-<img src="https://user-images.githubusercontent.com/84271454/128645300-ee60427b-61a7-438f-99b7-8c4a1b7036d7.jpg" width="1000" height="500">
+<img src="https://user-images.githubusercontent.com/84271454/128645300-ee60427b-61a7-438f-99b7-8c4a1b7036d7.jpg" width="900" height="500">
 
 ---
 
 <br><h4>2.  Provide a State & City Name of your location and choose your eligibility criteria.</h4>
-<img src="https://user-images.githubusercontent.com/84271454/128645304-4fb56e1a-0aa5-47d7-aad7-fae6f4b71304.jpg" width="1000" height="500">
+<img src="https://user-images.githubusercontent.com/84271454/128645304-4fb56e1a-0aa5-47d7-aad7-fae6f4b71304.jpg" width="900" height="500">
 
 ---
 
-As you see in the the above both images, all the data which you require to know are displayed on the Table. So you can easily register for vaccination. And don't worry, you dont
-need to seat whole day in front of the pc to check this results. Whenever script find the result it will alert you via the alert sound.
+As you see in the above images, all the data which you require to know are displayed on the Table. So you can easily register for vaccination. And don't worry, you don't
+need to seat the whole day in front of the pc to check these results. Whenever the script finds the result it will alert you via the alert sound.
 
-## :sweat: Problems
-i know so many questions are come to your mind. okkk, so first start with the problems. 
+# :hand: Thanks
+If you find it's helpful for you then, please give us a star.
 
-When the first time goverment was release www.cowin.gov their api which work completely fine but after some time due to improper and heavy use, indian gov make some rules and regulation for api use. its also not big problem for devs, but then after, they stricaly put limit of featching data and now it create problem for small devs. 
-
-So as a alternative solustion we deside to use selenium web-browser also selenium have their own 2 benefits.
-1.  Selenium have ability to create fake_user_agent.
-2.  Selenium is much faster for grabbing data and connect with the (Qt5)Software development and (Kavy)app development.
-
-i am little worried about the timing of data featch and page refreshing time. But don't worry we would handle this thing with very carefully.
-we try to reduce the complexity by not adding Exception conditions. so you can find some bugs somewhere, but dont worry it will not effect more.
-
-First time it take 0.0.9 second to grab the result from web. but then after it take only 0.0.2 secs. And it's quite descent results but its good to going with it.
-
-
-
-
+If you find some qyery then pull-up request, we try our best to solve it.
