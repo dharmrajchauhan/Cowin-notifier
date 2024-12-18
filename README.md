@@ -64,4 +64,4 @@ need to seat the whole day in front of the pc to check these results. Whenever t
 # :hand: Thanks
 If you find it's helpful for you then, please give us a star.
 
-If you find some qyery then pull-up request, we try our best to solve it.
+If you find some query then create issue, we try our best to solve it.
